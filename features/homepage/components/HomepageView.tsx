@@ -22,7 +22,7 @@ const HomepageView = () => {
   }
 
   return (
-    <div className="homepage__view max-w-[1000px] px-5 h-auto m-auto flex flex-col justify-center items-center py-10">
+    <div className="homepage__view w-full max-w-[1000px] px-5 h-auto m-auto flex flex-col justify-center items-center py-10">
       <h1 className="text-5xl font-bold mb-5">XKCD Comics</h1>
 
       <HomepageButtons
