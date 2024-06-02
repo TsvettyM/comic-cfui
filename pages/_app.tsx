@@ -12,7 +12,7 @@ const nunito = Nunito({
 });
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-  axios.defaults.baseURL = "http://localhost:3000/api";
+  axios.defaults.baseURL = "https://xkdc-comics.vercel.app/api";
 
   return (
     <>
